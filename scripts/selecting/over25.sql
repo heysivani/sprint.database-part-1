@@ -1,1 +1,1 @@
--- Your SQL here
+select * from public.students where age(date_of_birth) > make_interval(25);
